@@ -130,7 +130,7 @@ editEnvFile() {
 	echo -n "Escolha uma opção: "
 	read optionEditEnvFile
 	case $optionEditEnvFile in
-	1) wget -c https://raw.githubusercontent.com/renanteixeira/brodooinstall/dev_env/.env.example -O .env && vi .env;;
+	1) wget -c https://raw.githubusercontent.com/renanteixeira/brodooinstall/main/dev_env/.env.example -O .env && vi .env;;
 	2) echo "outro diretório" ;;
 	esac
 	printf ${END}
